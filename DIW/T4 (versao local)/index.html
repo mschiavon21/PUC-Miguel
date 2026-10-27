@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acervo Literário - Autores e Obras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <h1 class="brand-title">Acervo Literário</h1>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="#obras">Obras</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content-container">
+    <section id="obras" class="gallery-section">
+      <h2 class="section-title">Obras em Destaque</h2>
+      
+      <article class="card-item">
+        <img class="card-image" src="https://picsum.photos/id/1025/300/200" alt="Capa da Obra 1">
+        <h3 class="card-title">Dom Casmurro</h3>
+        <p class="card-desc">Romance clássico de Machado de Assis publicado em 1899.</p>
+      </article>
+
+      <article class="card-item">
+        <img class="card-image" src="https://picsum.photos/id/1062/300/200" alt="Capa da Obra 2">
+        <h3 class="card-title">A Hora da Estrela</h3>
+        <p class="card-desc">Último romance escrito por Clarice Lispector.</p>
+      </article>
+    </section>
+
+    <section id="newsletter" class="form-section">
+      <h2 class="section-title">Receba Novidades</h2>
+      <form class="subscribe-form">
+        <div class="field-group">
+          <label for="userName">Nome:</label>
+          <input type="text" id="userName" name="userName" required placeholder="Digite seu nome">
+        </div>
+
+        <div class="field-group">
+          <label for="userEmail">E-mail:</label>
+          <input type="email" id="userEmail" name="userEmail" required placeholder="seuemail@exemplo.com">
+        </div>
+
+        <button type="submit" class="submit-btn">Inscrever-se</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p class="footer-text">&copy; 2026 Acervo Literário. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

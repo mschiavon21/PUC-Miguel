@@ -1,0 +1,71 @@
+/* estilo da tela de cadastro de escolas (cores do wireframe) */
+
+.area-escolas {
+    background-color: #116b6b;
+    min-height: 100vh;
+    padding: 40px 5%;
+}
+
+.titulo-escolas {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cartao-escola {
+    background-color: #0b3d40;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.cartao-escola .form-label,
+.cartao-escola .subtitulo {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.cartao-escola .form-control,
+.cartao-escola .form-select {
+    border-radius: 8px;
+}
+
+.botoes-escola {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.btn-escola {
+    background-color: #d9d9d9;
+    color: #222;
+    font-weight: bold;
+    text-transform: uppercase;
+    min-width: 130px;
+}
+
+.btn-escola:hover {
+    background-color: #fff;
+}
+
+/* botao desativado fica so mais claro */
+.btn-escola:disabled {
+    background-color: #d9d9d9;
+    color: #222;
+    opacity: 0.45;
+}
+
+.dica {
+    color: #cfe;
+    font-size: 0.9em;
+}
+
+/* linha selecionada */
+#tabela-escolas tr {
+    cursor: pointer;
+}
+
+#tabela-escolas tr.selecionada td {
+    background-color: #ffe08a;
+}

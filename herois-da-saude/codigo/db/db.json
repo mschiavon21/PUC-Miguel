@@ -1,0 +1,57 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": 2,
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "login": "rommel",
+      "senha": "123",
+      "nome": "Rommel",
+      "email": "rommel@gmail.com",
+      "id": 3
+    }
+  ],
+  "escolas": [
+    {
+      "id": 1,
+      "nome": "Escola Estadual Tiradentes",
+      "cnpj": "12.345.678/0001-90",
+      "endereco": {
+        "rua": "Av. Afonso Pena",
+        "numero": "1000",
+        "cep": "30130-000",
+        "bairro": "Centro",
+        "cidade": "Belo Horizonte",
+        "estado": "MG"
+      },
+      "codigo_inep": "67676767",
+      "dependencia_administrativa": "Estadual"
+    },
+    {
+      "nome": "Escola Municipal Dom Bosco",
+      "cnpj": "98.765.432/0001-10",
+      "endereco": {
+        "rua": "Rua da Bahia",
+        "numero": "250",
+        "cep": "30160-011",
+        "bairro": "Lourdes",
+        "cidade": "Belo Horizonte",
+        "estado": "MG"
+      },
+      "codigo_inep": "31234567",
+      "dependencia_administrativa": "Municipal",
+      "id": 2
+    }
+  ]
+}

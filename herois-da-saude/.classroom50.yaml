@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "pmg-cc-2026-2-ti2-6168100"
+assignment: "pmg-cc-2026-2-ti2-6168100"
+owner:
+  username: "Odsfidoij"
+  id: 164919792
+  accepted_at: "2026-09-10T10:01:03Z"
+source:
+  owner: "ICEI-PUC-Minas-CC-TI"
+  owner_id: 60940181
+  repo: "ti2-template-2026-2"
+  branch: "master"

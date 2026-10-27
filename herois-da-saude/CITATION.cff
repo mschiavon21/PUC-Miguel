@@ -1,0 +1,31 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+# title: Sigla/Nome + descricao curta (ate 80 caracteres)
+title: "Hérois da Saúde - Sistema gamificado de ensino sobre saúde"
+# abstract: Descricao completa do projeto (ate 500 caracteres)
+abstract: "Atualmente, saúde vem sendo um assunto muito abordado em diversos contextos, como trabalho e como destacamos, escolas. Pensando nisso, resolvemos focar na falta de conhecimento e ensino dos jovens estudantes no ambiente escolar. Para resolver o problema foi proposto um sistema web interativo com atividades e conteúdos diversificados, afim para aproximar os jovens, de uma forma interessante, gamificada e adaptativa, de conceitos importantes para seu desenvolvimento pessoal e social. O sistema é voltado para alunos do ensino fundamental e médio, com o objetivo de ensinar sobre saúde de forma lúdica e interativa."
+
+Com supervisão do professor responsável, o mesmo terá a possibilidade de visualizar em tempo real o progresso dos alunos e desenvolver novas dinâmicas a serem realizadas."
+# Adicione ou remova autores conforme a composicao da equipe.
+# Para cada integrante, preencha family-names com o sobrenome e given-names com os demais nomes.
+# Mantenha os professores como autores quando essa for a orientacao da disciplina.
+authors:
+  - family-names: Gonçalves
+    given-names: Antônio Victor Oliveira
+  - family-names: de Sá Cavalcanti Araujo
+    given-names: Diogo
+  - family-names: Freitas Nogueira
+    given-names: Eduardo Augusto
+  - family-names: Schiavon Britto
+    given-names: Miguel
+  - family-names: dos Santos Alves
+    given-names: Pedro Luiz
+  - family-names: Duarte Machado
+    given-names: Thiago
+keywords:
+  - saúde
+  - educação
+repository-code: "https://github.com/ICEI-PUC-Minas-CC-TI/pmg-cc-2026-2-ti2-6168100-pmg-cc-2026-2-ti2-6168100-group-4.git"
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-02-27
